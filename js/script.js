@@ -74,7 +74,7 @@ function printQuote() {
     document.getElementById('quote-box').innerHTML = `${html}`; // adding the html string variable to the innerHTML
   }
 
-// Setting interval to change quotes every 15 seconds
+// Interval to change quotes every 15 seconds
 setInterval(printQuote, 15000);
 
 /***
