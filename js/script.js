@@ -72,12 +72,8 @@ function printQuote() {
 // Interval to change quotes every 15 seconds
 setInterval(printQuote, 15000);
 
-/***
- * click event listener for the print quote button
- * DO NOT CHANGE THE CODE BELOW!!
-***/
+/*
+  click event listener for the print quote button
+*/
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
-
-//alert(quotes[0].quote);
-//console.log(getRandomQuote());
